@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/flex-layout-attribute.min.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="js/d3-chart.js"></script>
+    <script src="js/draw.js"></script>
+
+
+</head>
+
+<body>
+  <style>
+  .chart-box {
+    border: 1px solid grey;
+    width:500px;
+    height:400px;
+    margin:10px;
+  }
+  </style>
+  <section class="screen landing" >
+    <div layout="column">
+      <div layout="row" self="size-x1">
+        <div id="chart1" class="chart-box"></div>
+        <div class="chart-box d3-chart"></div>
+      </div>
+      <div layout="row" self="size-x1">
+        <div class="chart-box d3-chart"></div>
+        <div class="chart-box d3-chart"></div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+</body>
+</html>
